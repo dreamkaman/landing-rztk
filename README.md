@@ -1,2 +1,0 @@
-# landing-rztk
-Landing page
