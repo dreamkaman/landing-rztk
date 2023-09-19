@@ -33,6 +33,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src', 'index.html'),
+      scriptLoading: 'module', //script attribute
     }),
     new HtmlWebpackPartialsPlugin([
       {
